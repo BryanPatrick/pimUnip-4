@@ -5,15 +5,24 @@
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
+import Home from './views/Home.vue'
 
-export default defineComponent({
-  setup() {
-    
-  },
-})
+export default {
+  components: Home,
+};
 </script>
 
 
 <style>
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/* .img {
+  height: 100%;
+} */
+a {
+  text-decoration: none;
+}
 </style>
