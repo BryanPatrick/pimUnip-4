@@ -12,34 +12,37 @@
     <div class="presentation-grid presentation">
       <p>Bem vindo ao nosso Web Site!!</p>
     </div>
-    <section class="content-grid">
-      <!-- <div>
-        <img src="../assets/img-faixada.jpg" alt="">
-      </div> -->
-      <section class="colums">
-        <div class="left-colum">
-          <div class="card">
-            <img src="../assets/img-hall.jpg" alt="">
-          </div>
-          <div class="card">
-            <img src="../assets/img-restaurante.jpg" alt="">
-          </div>
-          <div class="card">
-            <img src="../assets/img-corredores.jpg" alt="">
-          </div>
+    <section class="content-grid content">
+      <div>
+        <div class="card">
+          <h4>Imagens do hall</h4>
+          <img src="../assets/img-hall.png" alt="">
         </div>
-        <div class="right-colum">
-          <div class="card">
-            <img src="../assets/img-vista.jpg" alt="">
-          </div>
-          <div class="card">
-            <img src="../assets/img-spa.jpg" alt="">
-          </div>
-          <div class="card">
-            <img src="../assets/img-piscina.jpg" alt="">
-          </div>
+        <div class="card">
+          <h4>Imagens da vista dos quartos</h4>
+          <img src="../assets/img-vista.png" alt="">
         </div>
-      </section>
+      </div>
+      <div>
+        <div class="card">
+          <h4>Imagens do restaurante</h4>
+          <img src="../assets/img-restaurante.png" alt="">
+        </div>
+        <div class="card">
+          <h4>imagens do spa</h4>
+          <img src="../assets/img-spa.png" alt="">
+        </div>
+      </div>
+      <div>
+        <div class="card">
+          <h4>Imagens dos corredores</h4>
+          <img src="../assets/img-corredores-2.0.png" alt="">
+        </div>
+        <div class="card">
+          <h4>Imagens da piscina</h4>
+          <img src="../assets/img-piscina.png" alt="">
+        </div>
+      </div>
     </section>
     <footer class="footer-grid">
         REDES SOCIAIS
@@ -90,20 +93,18 @@ export default {
   font-size: 25px;
   margin: 91px 0px 0px 522px;
 }
-.colums {
-  display: flex;
-  flex-direction: column;
-}
-.colums img {
-  max-height: 100px;
-  max-width: 100px;
+.card img {
+  width: 100%;
 }
 .card {
-  float: left;
+  display: inline-block;
   border: solid 1 px #ccc;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
   height: 150px;
-  widows: 100px;
+  width: 300px;
+}
+.content {
+  align-content: center;
 }
 
 /* grid */

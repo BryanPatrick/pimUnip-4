@@ -19,9 +19,6 @@ export default {
   margin: 0px;
   padding: 0px;
 }
-/* .img {
-  height: 100%;
-} */
 a {
   text-decoration: none;
 }
