@@ -12,34 +12,34 @@
     <div class="presentation-grid presentation">
       <p>Bem vindo ao nosso Web Site!!</p>
     </div>
-    <section class="content-grid content">
+    <section class="content">
       <div>
         <div class="card">
-          <h4>Imagens do hall</h4>
+          <h4>Hall</h4>
           <img src="../assets/img-hall.png" alt="">
         </div>
         <div class="card">
-          <h4>Imagens da vista dos quartos</h4>
+          <h4>Quartos</h4>
           <img src="../assets/img-vista.png" alt="">
         </div>
       </div>
       <div>
         <div class="card">
-          <h4>Imagens do restaurante</h4>
+          <h4>Restaurante</h4>
           <img src="../assets/img-restaurante.png" alt="">
         </div>
         <div class="card">
-          <h4>imagens do spa</h4>
+          <h4>Spa</h4>
           <img src="../assets/img-spa.png" alt="">
         </div>
       </div>
       <div>
         <div class="card">
-          <h4>Imagens dos corredores</h4>
+          <h4>Corredores</h4>
           <img src="../assets/img-corredores-2.0.png" alt="">
         </div>
         <div class="card">
-          <h4>Imagens da piscina</h4>
+          <h4>Piscina</h4>
           <img src="../assets/img-piscina.png" alt="">
         </div>
       </div>
@@ -58,11 +58,6 @@ export default {
 </script>
 
 <style scoped>
-
-/* img {
-  max-width: 200px;
-  max-height: 200px;
-} */
 .header-grid {
   display: flex;
   background-color: #363636;
@@ -76,6 +71,7 @@ export default {
   font-size: 25px;
 }
 .nav {
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,13 +81,16 @@ export default {
   color: black;
 }
 .presentation {
+  margin-top: 10px;
+  height: 125px;
   background-image: url("../assets/img-hotel-2.0.png");
   background-repeat: no-repeat;
 }
 .presentation p {
+  position: relative;
   text-transform: uppercase;
   font-size: 25px;
-  margin: 91px 0px 0px 522px;
+  /* margin: 91px 0px 0px 522px; */
 }
 .card img {
   width: 100%;
@@ -102,37 +101,15 @@ export default {
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
   height: 150px;
   width: 300px;
+  margin: 10px;
+  cursor: pointer;
+}
+.card h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .content {
-  align-content: center;
-}
-
-/* grid */
-.nav-grid {
-  grid-area: nav;
-}
-.header-grid {
-  grid-area: header;
-}
-.presentation-grid {
-  grid-area: presentation;
-}
-.content-grid {
-  grid-area: content-grid;
-}
-.footer-grid {
-  grid-area: footer;
-}
-.home-grid {
-  display: grid;
-  min-height: 100vh;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 60px 30px 125px 1fr 30px;
-  grid-template-areas: 
-    'header header'
-    'nav nav'
-    'presentation presentation'
-    'content-grid content-grid'
-    'footer footer';
+  margin: 0px 18%;
 }
 </style>
