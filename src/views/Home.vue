@@ -1,14 +1,5 @@
 <template>
-  <div class="home-grid">
-    <header class="header-grid">
-      <p class="logo">Vila dos sonhos</p>
-    </header>
-    <nav class="nav-grid nav">
-    | <router-link to="/">Home</router-link> |
-      <router-link to="/acomodacoes">Acomodações</router-link> |
-      <router-link to="/endereco">Endereço</router-link> |
-      <router-link to="/contato">Contato</router-link> |     
-    </nav>
+  <div>
     <div class="presentation-grid presentation">
       <p>Bem vindo ao nosso Web Site!!</p>
     </div>
@@ -58,28 +49,7 @@ export default {
 </script>
 
 <style scoped>
-.header-grid {
-  display: flex;
-  background-color: #363636;
-  align-items: center;
-  justify-content: space-around;
-}
-.logo {
-  color: white;
-  margin: 20px auto;
-  text-transform: uppercase;
-  font-size: 25px;
-}
-.nav {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav a {
-  margin: auto 15px;
-  color: black;
-}
+
 .presentation {
   margin-top: 10px;
   height: 125px;

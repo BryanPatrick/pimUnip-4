@@ -1,14 +1,22 @@
 <template>
   <div id="app">
+    <Header></Header>
     <router-view/>
   </div>
 </template>
 
 <script>
+import Header from './components/Header.vue'
 import Home from './views/Home.vue'
+import Acomodações from './views/Acomodacoes.vue'
+import Contato from './views/Contato.vue'
+import Endereco from './views/Endereco.vue'
 
 export default {
-  components: Home,
+  components: { 
+    Home,
+    Header,
+  },
 };
 </script>
 
