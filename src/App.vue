@@ -11,6 +11,7 @@ import Home from './views/Home.vue'
 import Acomodações from './views/Acomodacoes.vue'
 import Contato from './views/Contato.vue'
 import Endereco from './views/Endereco.vue'
+import Teste from './views/Teste.vue'
 
 export default {
   components: { 

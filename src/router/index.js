@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Acomodacoes from '../views/Acomodacoes.vue'
 import Endereco from '../views/Endereco.vue'
 import Contato from '../views/Contato.vue'
+import Teste from '../views/Teste.vue'
 
 Vue.use(VueRouter)
 
@@ -27,7 +28,12 @@ const routes = [
     path: '/Contato',
     name: 'Contato',
     component: Contato
-  }
+  },
+  {
+    path: '/Teste',
+    name: 'Teste',
+    component: Teste
+  },
 ]
 
 const router = new VueRouter({

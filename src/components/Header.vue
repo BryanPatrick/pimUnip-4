@@ -7,7 +7,8 @@
         | <router-link to="/">Home</router-link> |
         <router-link to="/acomodacoes">Acomodações</router-link> |
         <router-link to="/endereco">Endereço</router-link> |
-        <router-link to="/contato">Contato</router-link> |     
+        <router-link to="/contato">Contato</router-link> |
+        <router-link to="/teste">Teste</router-link> |
       </nav>
     </div>
 </template>
