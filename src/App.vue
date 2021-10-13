@@ -28,6 +28,10 @@ export default {
   margin: 0px;
   padding: 0px;
 }
+/* #app {
+  display: flex;
+  align-items: center;
+} */
 a {
   text-decoration: none;
 }
