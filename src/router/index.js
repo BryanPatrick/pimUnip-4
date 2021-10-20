@@ -2,9 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Acomodacoes from '../views/Acomodacoes.vue'
-import Endereco from '../views/Endereco.vue'
-import Contato from '../views/Contato.vue'
-import Teste from '../views/Teste.vue'
+import EnderecoEContato from '../views/EnderecoEContato.vue'
+import Lazer from '../views/Lazer.vue'
 
 Vue.use(VueRouter)
 
@@ -20,19 +19,14 @@ const routes = [
     component: Acomodacoes
   },
   {
-    path: '/Endereco',
-    name: 'Endereco',
-    component: Endereco
+    path: '/Lazer',
+    name: 'Lazer',
+    component: Lazer
   },
   {
-    path: '/Contato',
-    name: 'Contato',
-    component: Contato
-  },
-  {
-    path: '/Teste',
-    name: 'Teste',
-    component: Teste
+    path: '/EnderecoEContato',
+    name: 'EnderecoEContato',
+    component: EnderecoEContato
   },
 ]
 

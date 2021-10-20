@@ -23,12 +23,12 @@ export default {
 </script>
 
 <style scoped>
-    .carousel {
-        position: relative;
-        width: 600px;
-        height: 350px;
-        overflow: hidden;
-    }
+.carousel {
+  position: relative;
+  width: 600px;
+  height: 350px;
+  overflow: hidden;
+}
     button {
         position: absolute;
         height: 40px;

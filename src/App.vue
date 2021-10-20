@@ -10,8 +10,7 @@ import Header from './components/Header.vue'
 import Home from './views/Home.vue'
 import Acomodações from './views/Acomodacoes.vue'
 import Contato from './views/Contato.vue'
-import Endereco from './views/Endereco.vue'
-import Teste from './views/Teste.vue'
+import Endereco from './views/EnderecoEContato.vue'
 
 export default {
   components: { 
@@ -34,5 +33,8 @@ export default {
 } */
 a {
   text-decoration: none;
+}
+img {
+  width: 100%;
 }
 </style>

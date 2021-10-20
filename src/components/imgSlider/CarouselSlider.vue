@@ -14,6 +14,7 @@ export default {
 </script>
 
 <style scoped>
+
     .carousel-slide {
         position: absolute;
         top: 0;
