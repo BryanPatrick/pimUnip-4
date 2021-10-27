@@ -11,7 +11,7 @@
                         TV tela 32”, Internet Wireless, Cofre Digital,
                         Telefone, TV à Cabo, Cama Box e Frigobar.
                     </p>
-                    <button>Reservar</button>
+                    <button class="btn-reservar">Reservar</button>
                 </div>
             </div>
             <div class="card">
@@ -23,7 +23,7 @@
                         TV tela 32”, Internet Wireless, Cofre Digital,
                         Telefone, Secador, TV à Cabo, Cama Box, Frigobar .
                     </p>
-                    <button>Reservar</button>
+                    <button class="btn-reservar">Reservar</button>
                 </div>
             </div>
         </section>
@@ -65,11 +65,5 @@ export default {
     }
     .descricao {
         margin: 0 25px;
-    }
-    .descricao button {
-        margin: 20px 0 0 20px;
-        width: 140px;
-        height: 30px;
-        border-radius: 20px;
     }
 </style>

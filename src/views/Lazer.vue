@@ -20,7 +20,7 @@
                              carteado e muito mais ! <br><br>
                         <b>Meeting Room</b>: Para momentos inesqueciveis para você e seus familiares. <br><br> 
                     </p>
-                    <button>Reservar</button>
+                    <button class="btn-reservar">Reservar</button>
                 </div>
             </div>
         </section>
@@ -61,11 +61,5 @@ export default {
     }
     .descricao {
         margin: 0 25px;
-    }
-    .descricao button {
-        margin: 20px 0 0 20px;
-        width: 140px;
-        height: 30px;
-        border-radius: 20px;
     }
 </style>
