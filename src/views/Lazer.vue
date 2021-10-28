@@ -20,7 +20,9 @@
                              carteado e muito mais ! <br><br>
                         <b>Meeting Room</b>: Para momentos inesqueciveis para você e seus familiares. <br><br> 
                     </p>
-                    <button class="btn-reservar">Reservar</button>
+                    <button class="btn-reservar">
+                        <router-link to="/Reserva">Reserva</router-link>
+                    </button>
                 </div>
             </div>
         </section>

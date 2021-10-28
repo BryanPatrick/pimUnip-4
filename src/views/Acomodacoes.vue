@@ -11,7 +11,9 @@
                         TV tela 32”, Internet Wireless, Cofre Digital,
                         Telefone, TV à Cabo, Cama Box e Frigobar.
                     </p>
-                    <button class="btn-reservar">Reservar</button>
+                    <button class="btn-reservar">
+                        <router-link to="/Reserva">Reserva</router-link>
+                    </button>
                 </div>
             </div>
             <div class="card">
@@ -23,7 +25,9 @@
                         TV tela 32”, Internet Wireless, Cofre Digital,
                         Telefone, Secador, TV à Cabo, Cama Box, Frigobar .
                     </p>
-                    <button class="btn-reservar">Reservar</button>
+                    <button class="btn-reservar">
+                        <router-link to="/Reserva">Reserva</router-link>
+                    </button>
                 </div>
             </div>
         </section>

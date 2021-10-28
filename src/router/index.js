@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
 import Home from '../views/Home.vue'
 import Acomodacoes from '../views/Acomodacoes.vue'
 import EnderecoEContato from '../views/EnderecoEContato.vue'
 import Lazer from '../views/Lazer.vue'
+import Reserva from '../views/Reserva.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +29,11 @@ const routes = [
     path: '/EnderecoEContato',
     name: 'EnderecoEContato',
     component: EnderecoEContato
+  },
+  {
+    path: '/Reserva',
+    name: 'Reserva',
+    component: Reserva
   },
 ]
 
